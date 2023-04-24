@@ -1,0 +1,123 @@
+*{margin: 0;
+padding:0;}
+
+.flexbox{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    border: 1px solid;
+    padding: 25px 40px;
+    background-color: #FFC017;
+}
+.container{
+    border: 1px black;
+    padding: 30px;
+}
+.leftflex{
+    background-color: #FFC017;
+
+}
+.stay{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.discover{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.left-flex-but{
+    background-color: black;
+    color:  white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 8px;
+    border-radius: 20px;
+}
+.nav2{
+    display: flex;
+    background-color: #FFC017;
+    height: 350px;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-left{
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.nav-elements{
+    margin-right: 20px;
+    color: black;
+    padding: 8px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 1px solid; */
+}
+/* a:hover{
+    color: aquamarine;
+} */
+.nav-right a{
+    text-decoration: none;
+}
+.nav-right-btn{
+    background-color: black;
+    color:  white;
+    padding: 8px;
+    text-align: center;
+    margin-left: 8px;
+    border-radius: 20px;
+}
+.Trending{
+    margin-bottom: 10px;
+}
+.container-blogs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.container-blogs{
+    padding: 60px;
+}
+.name{
+    font-size: small;
+}
+.gyan-heading{
+    font-size: x-large;
+    font: bold;
+}
+.gyan{
+    color: gray;
+}
+.discover{
+    margin-left: 30px;
+}
+.subject-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;;
+}
+.ftr-links{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+}
+.discoverr{
+    position: sticky;
+    top: 100px;
+    border: 2px solid;
+}
